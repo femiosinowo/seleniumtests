@@ -29,8 +29,10 @@ public class NewTest {
 	public void beforeTest() {
 		// System.setProperty("webdriver.gecko.driver","c:\\geckodriver.exe");
 		// WebDriver driver = new FirefoxDriver();
-		
-		System.setProperty("webdriver.chrome.driver", "c:\\webdrivers\\chromedriver.exe");
+
+		// System.setProperty("webdriver.chrome.driver",
+		// "c:\\webdrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
