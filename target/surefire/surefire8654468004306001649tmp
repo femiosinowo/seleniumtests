@@ -1,5 +1,5 @@
 #surefire
-#Thu Feb 09 13:16:01 EST 2017
+#Thu Feb 09 13:47:05 EST 2017
 tc.0=example.NewTest
 testng.configurator=org.apache.maven.surefire.testng.conf.TestNG652Configurator
 testng.test.classpath=C\:\\Users\\femio\\workspace\\WebDriverTest\\target\\test-classes
@@ -57,26 +57,25 @@ classPathUrl.50=C\:\\Users\\femio\\.m2\\repository\\org\\yaml\\snakeyaml\\1.15\\
 classPathUrl.51=C\:\\Users\\femio\\.m2\\repository\\org\\testng\\testng\\6.10\\testng-6.10.jar
 classPathUrl.52=C\:\\Users\\femio\\.m2\\repository\\junit\\junit\\4.10\\junit-4.10.jar
 classPathUrl.53=C\:\\Users\\femio\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.1\\hamcrest-core-1.1.jar
-classPathUrl.54=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-testng-utils\\2.16\\surefire-testng-utils-2.16.jar
-classPathUrl.55=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-grouper\\2.16\\surefire-grouper-2.16.jar
-surefireClassPathUrl.0=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-testng\\2.16\\surefire-testng-2.16.jar
-surefireClassPathUrl.1=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\common-java5\\2.16\\common-java5-2.16.jar
-surefireClassPathUrl.2=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.16\\surefire-api-2.16.jar
+classPathUrl.54=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-testng-utils\\2.18.1\\surefire-testng-utils-2.18.1.jar
+classPathUrl.55=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-grouper\\2.18.1\\surefire-grouper-2.18.1.jar
+surefireClassPathUrl.0=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-testng\\2.18.1\\surefire-testng-2.18.1.jar
+surefireClassPathUrl.1=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\common-java5\\2.18.1\\common-java5-2.18.1.jar
+surefireClassPathUrl.2=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.18.1\\surefire-api-2.18.1.jar
+surefireClassPathUrl.3=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-testng-utils\\2.18.1\\surefire-testng-utils-2.18.1.jar
+surefireClassPathUrl.4=C\:\\Users\\femio\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-grouper\\2.18.1\\surefire-grouper-2.18.1.jar
 enableAssertions=true
 childDelegation=false
 testFwJarVersion=6.10
 preferTestsFromInStream=false
 testSuiteDefinitionTestSourceDirectory=C\:\\Users\\femio\\workspace\\WebDriverTest\\src\\test\\java
-failIfNoTests=false
-includes0=**/Test*.java
-includes1=**/*Test.java
-includes2=**/*TestCase.java
-excludes0=**/*$*
-testClassesDirectory=C\:\\Users\\femio\\workspace\\WebDriverTest\\target\\test-classes
+testSuiteXmlFiles0=C\:\\Users\\femio\\workspace\\WebDriverTest\\testng.xml
+rerunFailingTestsCount=0
 runOrder=filesystem
-runStatisticsFile=C\:\\Users\\femio\\workspace\\WebDriverTest\\.surefire-8367F63F849E14968619854CEA79C4344AC07233
+runStatisticsFile=C\:\\Users\\femio\\workspace\\WebDriverTest\\.surefire-D384BD3AFF1AC40418095EDDE36BBE5151B64714
 isTrimStackTrace=true
 reportsDirectory=C\:\\Users\\femio\\workspace\\WebDriverTest\\target\\surefire-reports
 useSystemClassLoader=true
 useManifestOnlyJar=true
+failIfNoTests=false
 providerConfiguration=org.apache.maven.surefire.testng.TestNGProvider
