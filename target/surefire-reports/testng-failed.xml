@@ -5,8 +5,10 @@
     <classes>
       <class name="example.NewTest">
         <methods>
-          <include name="testEasy"/>
+          <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="getResult"/>
+          <include name="htmlsampleTest1"/>
         </methods>
       </class> <!-- example.NewTest -->
     </classes>
